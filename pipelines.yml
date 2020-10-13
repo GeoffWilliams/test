@@ -6,7 +6,7 @@ resources:
       path: geoffwilliams/test         # done - Change to your repo
 
 pipelines:
-  - name: pipeline_hello_world
+  - name: pipeline_hello_world_public
     configuration:
       environmentVariables:
         readOnly:
