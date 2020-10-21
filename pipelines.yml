@@ -60,3 +60,5 @@ pipelines:
             - echo "Running $pipeline_name | $step_name on node ID $step_node_id"
             - add_pipeline_variables prev_runid=$run_id
             - echo $current_runid Completed
+            - curl https://www.google.com
+            - curl https://github.com/google/uuid/blob/master/go.mod
